@@ -1,0 +1,52 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+env/
+*.venv/
+*.env/
+
+# Ignore local development settings
+*.env.local
+*.env.dev
+*.env.prod
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.swp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor or IDE-specific files
+.vscode/
+.idea/
+
+# Ignore compiled binaries and build artifacts
+/build/
+/dist/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore package manager directories
+/node_modules/
+/yarn-error.log
+npm-debug.log*
+
+# Ignore sensitive or confidential information
+secrets.env
+credentials.json
+
+# Ignore user-specific files
+*.config
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/

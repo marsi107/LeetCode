@@ -51,3 +51,4 @@ credentials.json
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 PandasData/.DS_Store
+.DS_Store
